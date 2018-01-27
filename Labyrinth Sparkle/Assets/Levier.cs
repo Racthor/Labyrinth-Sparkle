@@ -21,8 +21,6 @@ public class Levier : MonoBehaviour {
     }
 
     private void OnTriggerEnter( Collider other ) {
-        Debug.Log( other );
         on = !on;
-        Debug.Log( on );
     }
 }
