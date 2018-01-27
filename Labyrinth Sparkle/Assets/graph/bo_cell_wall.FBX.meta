@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: c77fb501f75cb8849bcf4d3ff80530e3
+timeCreated: 1517065879
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Camera001
+    100004: Camera001.Target
+    100006: cell_floor_001
+    100008: cell_floor_004
+    100010: cell_floor_006
+    100012: cell_floor_007
+    100014: cell_floor_008
+    100016: cell_floor_009
+    100018: cell_wall_001
+    100020: cell_wall_004
+    100022: cell_wall_006
+    100024: cell_wall_007
+    100026: cell_wall_008
+    100028: cell_wall_009
+    400000: //RootNode
+    400002: Camera001
+    400004: Camera001.Target
+    400006: cell_floor_001
+    400008: cell_floor_004
+    400010: cell_floor_006
+    400012: cell_floor_007
+    400014: cell_floor_008
+    400016: cell_floor_009
+    400018: cell_wall_001
+    400020: cell_wall_004
+    400022: cell_wall_006
+    400024: cell_wall_007
+    400026: cell_wall_008
+    400028: cell_wall_009
+    2000000: Camera001
+    2100000: No Name
+    2300000: //RootNode
+    2300002: cell_floor_001
+    2300004: cell_floor_004
+    2300006: cell_floor_006
+    2300008: cell_floor_007
+    2300010: cell_floor_008
+    2300012: cell_floor_009
+    2300014: cell_wall_001
+    2300016: cell_wall_004
+    2300018: cell_wall_006
+    2300020: cell_wall_007
+    2300022: cell_wall_008
+    2300024: cell_wall_009
+    3300000: //RootNode
+    3300002: cell_floor_001
+    3300004: cell_floor_004
+    3300006: cell_floor_006
+    3300008: cell_floor_007
+    3300010: cell_floor_008
+    3300012: cell_floor_009
+    3300014: cell_wall_001
+    3300016: cell_wall_004
+    3300018: cell_wall_006
+    3300020: cell_wall_007
+    3300022: cell_wall_008
+    3300024: cell_wall_009
+    4300000: cell_wall_001
+    4300002: cell_floor_004
+    4300004: cell_floor_001
+    4300006: cell_floor_006
+    4300008: cell_wall_004
+    4300010: cell_wall_006
+    4300012: cell_floor_007
+    4300014: cell_floor_008
+    4300016: cell_floor_009
+    4300018: cell_wall_007
+    4300020: cell_wall_008
+    4300022: cell_wall_009
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
