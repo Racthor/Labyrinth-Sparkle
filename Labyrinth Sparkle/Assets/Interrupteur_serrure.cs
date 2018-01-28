@@ -13,4 +13,8 @@ public class Interrupteur_serrure : MonoBehaviour {
     private void OnTriggerEnter( Collider other ) {
         on = !on;
     }
+
+    private void OnTriggerExit( Collider other ) {
+        on = !on;
+    }
 }
