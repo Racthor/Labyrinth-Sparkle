@@ -23,11 +23,19 @@ public class Flux : MonoBehaviour {
             timer += 1.0f * Time.deltaTime;
         }
 
-        if(timer >= waitTime ) {
+        if ( timer >= waitTime ) {
             Debug.Log( "BOOM" );
             SceneManager.LoadScene( 0, LoadSceneMode.Single );
         }
         
+        if ( flux.fillAmount == 1 ) {
+            chgtFlux( flux.GetComponent<ChainageFlux>().fluxSuivant );
+        }
+    }
+
+    private void chgtFlux(Image newFlux) {
+        flux = newFlux;
+        timer = 0;
     }
 
 
