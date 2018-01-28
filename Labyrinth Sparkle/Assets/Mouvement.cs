@@ -42,6 +42,18 @@ public class Mouvement : MonoBehaviour {
             this.GetComponent<CharacterController>().enabled = false;
             GameObject.Find( "Robot_" + 6 ).GetComponent<CharacterController>().enabled = true;
         }
+        if ( Input.GetButton( "R7" ) ) {
+            this.GetComponent<CharacterController>().enabled = false;
+            GameObject.Find( "Robot_" + 7 ).GetComponent<CharacterController>().enabled = true;
+        }
+        if ( Input.GetButton( "R8" ) ) {
+            this.GetComponent<CharacterController>().enabled = false;
+            GameObject.Find( "Robot_" + 8 ).GetComponent<CharacterController>().enabled = true;
+        }
+        if ( Input.GetButton( "R9" ) ) {
+            this.GetComponent<CharacterController>().enabled = false;
+            GameObject.Find( "Robot_" + 9 ).GetComponent<CharacterController>().enabled = true;
+        }
 
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move( moveDirection * Time.deltaTime );
