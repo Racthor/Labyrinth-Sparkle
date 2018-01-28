@@ -30,6 +30,9 @@ public class Flux : MonoBehaviour {
         
         if ( flux.fillAmount == 1 ) {
             chgtFlux( flux.GetComponent<ChainageFlux>().fluxSuivant );
+            if ( flux.fillAmount == 1 ) {
+                Victoire(SceneManager.GetActiveScene().name);
+            }
         }
     }
 
@@ -38,5 +41,30 @@ public class Flux : MonoBehaviour {
         timer = 0;
     }
 
+    private void Victoire( string sceneName ) {
+        switch ( sceneName ) {
+            case "lvl_1":
+                SceneManager.LoadScene( "lvl_2", LoadSceneMode.Single );
+                break;
+            case "lvl_2":
+                SceneManager.LoadScene( "lvl_3", LoadSceneMode.Single );
+                break;
+            case "lvl_3":
+                SceneManager.LoadScene( "lvl_4", LoadSceneMode.Single );
+                break;
+            case "lvl_4":
+                SceneManager.LoadScene( "lvl_5", LoadSceneMode.Single );
+                break;
+            case "lvl_5":
+                SceneManager.LoadScene( "lvl_6", LoadSceneMode.Single );
+                break;
+            case "lvl_6":
+                SceneManager.LoadScene( "lvl_7", LoadSceneMode.Single );
+                break;
+            case "lvl_7":
+                SceneManager.LoadScene( "GameVictory", LoadSceneMode.Single );
+                break;
+        }
+    }
 
 }
