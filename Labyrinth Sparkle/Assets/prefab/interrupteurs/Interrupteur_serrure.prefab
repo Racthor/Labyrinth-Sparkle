@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 23832793434573294}
   - component: {fileID: 114687690888351130}
   m_Layer: 0
-  m_Name: Serrure
+  m_Name: Interrupteur_serrure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

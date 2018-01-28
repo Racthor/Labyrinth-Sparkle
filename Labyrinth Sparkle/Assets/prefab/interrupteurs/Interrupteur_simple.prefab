@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 23006008423891954}
   - component: {fileID: 114049651050408528}
   m_Layer: 0
-  m_Name: Interrupteur
+  m_Name: Interrupteur_simple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
