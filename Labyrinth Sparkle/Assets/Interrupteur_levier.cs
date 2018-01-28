@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI; // Required when Using UI elements.
 
 public class Interrupteur_levier : MonoBehaviour {
-    public GameObject porte;
+
+    public Canvas flux;
+    public float portail;
     private int nbRobotsSurPoussoir = 0;
 
     void Start() {
@@ -11,7 +14,9 @@ public class Interrupteur_levier : MonoBehaviour {
     }
 
     void Update() {
-        porte.GetComponent<Collider>().isTrigger = nbRobotsSurPoussoir == 2;
+        if ( flux.GetComponentInChildren<Image>().fillAmount >= portail ) {
+            flux.GetComponent<Flux>().Unblocked = nbRobotsSurPoussoir == 2;
+        }
     }
 
     private void OnTriggerEnter( Collider other ) { // fout la merde si il y a plus de 2 robots dessus.

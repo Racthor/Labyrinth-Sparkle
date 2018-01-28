@@ -4,18 +4,18 @@ using UnityEngine;
 using UnityEngine.UI; // Required when Using UI elements.
 
 public class Interrupteur_simple : MonoBehaviour {
-    public Image flux;
+    public Canvas flux;
     public float portail;
-    private bool on = false;
+    private bool on;
 
     void Start() {
-
+        on = false;
     }
 
     void Update() {
-        //flux.fillAmount == portail;
-        //porte.GetComponent<Collider>().isTrigger = on;
-
+        if ( flux.GetComponentInChildren<Image>().fillAmount >= portail ) {
+            flux.GetComponent<Flux>().Unblocked = on;
+        }
     }
 
     private void OnTriggerEnter( Collider other ) {

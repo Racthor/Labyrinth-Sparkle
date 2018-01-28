@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI; // Required when Using UI elements.
 
 public class Interrupteur_jumeau : MonoBehaviour {
     public GameObject interrupteur;
-    public GameObject porte;
+    public Canvas flux;
+    public float portail;
 
     private bool porteDebloquer;
     public bool PorteDebloquer { get { return porteDebloquer; } }
@@ -17,9 +19,9 @@ public class Interrupteur_jumeau : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-
-        porte.GetComponent<Collider>().isTrigger = (PorteDebloquer && interrupteur.GetComponent<Interrupteur_jumeau>().PorteDebloquer) ? true : false;
-
+        if ( flux.GetComponentInChildren<Image>().fillAmount >= portail ) {
+            flux.GetComponent<Flux>().Unblocked = porteDebloquer && interrupteur.GetComponent<Interrupteur_jumeau>().PorteDebloquer;
+        }
     }
     
     private void OnTriggerEnter( Collider other ) {
