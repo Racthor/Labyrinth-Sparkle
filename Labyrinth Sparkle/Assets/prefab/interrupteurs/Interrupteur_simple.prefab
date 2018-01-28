@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 23006008423891954}
   - component: {fileID: 114049651050408528}
   m_Layer: 0
-  m_Name: Interrupteur
+  m_Name: Interrupteur_simple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -178,10 +178,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1905441468122104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a41a6152c3cba34fbc772c219945345, type: 3}
+  m_Script: {fileID: 11500000, guid: 8851c5dfea6a43d4d86f9c71399e9eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  porte: {fileID: 0}
+  flux: {fileID: 0}
+  portail: 0
 --- !u!114 &114549478095225124
 MonoBehaviour:
   m_ObjectHideFlags: 1
