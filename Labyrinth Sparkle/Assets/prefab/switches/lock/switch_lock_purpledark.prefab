@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4661284257888276}
-  - component: {fileID: 114916316417924548}
+  - component: {fileID: 114839202004283272}
   m_Layer: 0
   m_Name: switch_lock_purpledark
   m_TagString: Untagged
@@ -102,7 +102,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1378958866870078}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -32.3, y: 40.2, z: 0}
+  m_LocalPosition: {x: -32.3, y: 40.2, z: -1.7}
   m_LocalScale: {x: 1, y: 1.0000005, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 4661284257888276}
@@ -115,15 +115,15 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1185365612259106}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: -175.6, y: 0, z: -1.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0.65, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.3}
   m_Children:
   - {fileID: 4079369631466106}
   - {fileID: 4796332201512166}
   - {fileID: 4375823034978476}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 180}
 --- !u!4 &4796332201512166
 Transform:
   m_ObjectHideFlags: 1
@@ -131,7 +131,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1625685548617000}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -39.30001, y: -30.700008, z: 0.0000076293945}
+  m_LocalPosition: {x: -39.30001, y: -30.7, z: -1.7}
   m_LocalScale: {x: 1, y: 1.0000005, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 4661284257888276}
@@ -319,7 +319,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114916316417924548
+--- !u!114 &114839202004283272
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -327,8 +327,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1185365612259106}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 823617538791f594b8d2420901fea3aa, type: 3}
+  m_Script: {fileID: 11500000, guid: 99c1d2ae1e7847248af58c579ec22e12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flux: {fileID: 0}
-  portail: 0
+  porte: {fileID: 0}

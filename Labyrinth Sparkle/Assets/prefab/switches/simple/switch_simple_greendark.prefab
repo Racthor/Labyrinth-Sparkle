@@ -37,8 +37,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4454694401730548}
-  - component: {fileID: 33831191452453230}
-  - component: {fileID: 114521559028069984}
+  - component: {fileID: 114946389805208612}
   m_Layer: 0
   m_Name: switch_simple_greendark
   m_TagString: Untagged
@@ -53,8 +52,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1811637238286802}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -148.1, y: 0, z: 2.44}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_Children:
   - {fileID: 4784373868300070}
   m_Father: {fileID: 0}
@@ -114,13 +113,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1262612567425062}
   m_Mesh: {fileID: 4300000, guid: 85cbeab65fa3c344196268b807f6db1c, type: 3}
---- !u!33 &33831191452453230
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1811637238286802}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!64 &64838375470194084
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -135,7 +127,7 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 85cbeab65fa3c344196268b807f6db1c, type: 3}
---- !u!114 &114521559028069984
+--- !u!114 &114946389805208612
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -143,7 +135,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1811637238286802}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 823617538791f594b8d2420901fea3aa, type: 3}
+  m_Script: {fileID: 11500000, guid: 8851c5dfea6a43d4d86f9c71399e9eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   flux: {fileID: 0}

@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4842604710455662}
-  - component: {fileID: 114051251077944616}
+  - component: {fileID: 114458557534035542}
   m_Layer: 0
   m_Name: switch_simple_purplelight
   m_TagString: Untagged
@@ -66,8 +66,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1492502598352904}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -148.1, y: 0, z: 2.44}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_Children:
   - {fileID: 4609421907483026}
   m_Father: {fileID: 0}
@@ -142,7 +142,7 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 85cbeab65fa3c344196268b807f6db1c, type: 3}
---- !u!114 &114051251077944616
+--- !u!114 &114458557534035542
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1492502598352904}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 823617538791f594b8d2420901fea3aa, type: 3}
+  m_Script: {fileID: 11500000, guid: 8851c5dfea6a43d4d86f9c71399e9eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   flux: {fileID: 0}
