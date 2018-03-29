@@ -1,28 +1,32 @@
 fileFormatVersion: 2
-guid: 407583c1376c154448da3bc0c08ff152
-timeCreated: 1517330574
+guid: 09174f64f7934104fb61d4eaaa8e120b
+timeCreated: 1522334509
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: switch_lock_center
-    100004: switch_lock_down
-    100006: switch_lock_top
+    100002: orb_base
+    100004: orb_lightning
+    100006: orb_sphere
     400000: //RootNode
-    400002: switch_lock_center
-    400004: switch_lock_down
-    400006: switch_lock_top
-    2100000: No Name
-    2300000: switch_lock_center
-    2300002: switch_lock_down
-    2300004: switch_lock_top
-    3300000: switch_lock_center
-    3300002: switch_lock_down
-    3300004: switch_lock_top
-    4300000: switch_lock_center
-    4300002: switch_lock_down
-    4300004: switch_lock_top
+    400002: orb_base
+    400004: orb_lightning
+    400006: orb_sphere
+    2100000: 'Material #2'
+    2100002: 'Material #4'
+    2100004: 'Material #3'
+    2300000: //RootNode
+    2300002: orb_base
+    2300004: orb_lightning
+    2300006: orb_sphere
+    3300000: //RootNode
+    3300002: orb_base
+    3300004: orb_lightning
+    3300006: orb_sphere
+    4300000: orb_sphere
+    4300002: orb_base
+    4300004: orb_lightning
     7400000: Take 001
     9500000: //RootNode
   externalObjects: {}
